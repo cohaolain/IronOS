@@ -1,0 +1,215 @@
+v = {
+  "languageCode": "GA",
+  "languageLocalName": "Gaeilge",
+  "tempUnitFahrenheit": false,
+  "messagesWarn": {
+    "CalibrationDone": {
+      "message": "Calabrú\ncríochnaithe!"
+    },
+    "ResetOKMessage": {
+      "message": "Athshocrú OK"
+    },
+    "SettingsResetMessage": {
+      "message": "Athraíodh roinnt\nsuíomhanna!"
+    },
+    "NoAccelerometerMessage": {
+      "message": "Gan aon luasghéaraitheoir\naimsithe!"
+    },
+    "NoPowerDeliveryMessage": {
+      "message": "Gan IC USB-PD\naimsithe!"
+    },
+    "LockingKeysString": {
+      "message": "GLASTA"
+    },
+    "UnlockingKeysString": {
+      "message": "DÍGLASTA"
+    },
+    "WarningKeysLockedString": {
+      "message": "!GLASTA!"
+    },
+    "WarningThermalRunaway": {
+      "message": "Rith\nTeirmeach"
+    },
+    "WarningTipShorted": {
+      "message": "!Biorán gearrchiorcaillte!"
+    },
+    "SettingsCalibrationWarning": {
+      "message": "Sula n-athshuitear, déan cinnte go bhfuil an biorán agus an láimhseáil ag teocht an tseomra!"
+    },
+    "CJCCalibrating": {
+      "message": "ag calabrú\n"
+    },
+    "SettingsResetWarning": {
+      "message": "An bhfuil tú cinnte gur mhaith leat na suímh réamhshocraithe a athshlánú?"
+    },
+    "UVLOWarningString": {
+      "message": "DC ÍSEAL"
+    },
+    "UndervoltageString": {
+      "message": "Fo-voltas\n"
+    },
+    "InputVoltageString": {
+      "message": "Voltas Ionchuir: \n"
+    },
+    "SleepingAdvancedString": {
+      "message": "Ag codladh...\n"
+    },
+    "SleepingTipAdvancedString": {
+      "message": "Biorán: \n"
+    },
+    "ProfilePreheatString": {
+      "message": "Réamhthéamh\n"
+    },
+    "ProfileCooldownString": {
+      "message": "Fuarú\n"
+    },
+    "DeviceFailedValidationWarning": {
+      "message": "Is dócha gur cóip bhréige atá i do ghléas!"
+    },
+    "TooHotToStartProfileWarning": {
+      "message": "Róthe chun\ntús a chur leis an bpróifíl"
+    }
+  },
+  "characters": {
+    "SettingRightChar": "D",
+    "SettingLeftChar": "C",
+    "SettingAutoChar": "U",
+    "SettingSlowChar": "M",
+    "SettingMediumChar": "A",
+    "SettingFastChar": "T",
+    "SettingStartSolderingChar": "S",
+    "SettingStartSleepChar": "C",
+    "SettingStartSleepOffChar": "A",
+    "SettingLockBoostChar": "L",
+    "SettingLockFullChar": "F"
+  },
+  "menuGroups": {
+    "PowerMenu": {
+      "displayText": "Socruithe\nCumhachta",
+      "description": ""
+    },
+    "SolderingMenu": {
+      "displayText": "Socruithe\nSádrála",
+      "description": ""
+    },
+    "PowerSavingMenu": {
+      "displayText": "Mód\nCodlata",
+      "description": ""
+    },
+    "UIMenu": {
+      "displayText": "Comhéadan\nÚsáideora",
+      "description": ""
+    },
+    "AdvancedMenu": {
+      "displayText": "Socruithe\nArdleibhéil",
+      "description": ""
+    }
+  },
+  "menuValues": {
+    "USBPDModeDefault": {
+      "displayText": "Mód\nRéamhshocraithe"
+    },
+    "USBPDModeNoDynamic": {
+      "displayText": "Gan\nDinimiciúil"
+    },
+    "USBPDModeSafe": {
+      "displayText": "Mód\nSábháilte"
+    },
+    "TipTypeAuto": {
+      "displayText": "Auto\nBraitheadh"
+    },
+    "TipTypeT12Long": {
+      "displayText": "TS100\nFada"
+    },
+    "TipTypeT12Short": {
+      "displayText": "Pine\nGearr"
+    },
+    "TipTypeT12PTS": {
+      "displayText": "PTS\n200"
+    },
+    "TipTypeTS80": {
+      "displayText": "TS80\n"
+    },
+    "TipTypeJBCC210": {
+      "displayText": "JBC\nC210"
+    }
+  },
+  "menuOptions": {
+    "DCInCutoff": {
+      "displayText": "Foinse\nCumhachta",
+      "description": "Socraigh voltas gearrtha chun ró-urscaoileadh ceallraí a chosc (DC=10V) (S=3.3V in aghaidh cealla, díchumasú teorainn PWR)"
+    },
+    "MinVolCell": {
+      "displayText": "Íosvoltas\ncealla",
+      "description": "Íosvoltas ceadaithe in aghaidh cealla ceallraí (3S: 3 - 3.7V | 4-6S: 2.4 - 3.7V)"
+    },
+    "QCMaxVoltage": {
+      "displayText": "QC\nvoltas",
+      "description": "Voltas uasta QC a ba cheart don iarann a chaibidil le haghaidh"
+    },
+    "PDNegTimeout": {
+      "displayText": "PD\namá\nmochta",
+      "description": "Amáil idirbheartaíochta PD i gcéimeanna 100ms chun comhoiriúnacht le luchtairí áirithe QC a chinntiú"
+    },
+    "USBPDMode": {
+      "displayText": "Mód\nPD",
+      "description": "Gan Dinimiciúil díchumasóidh EPR & PPS, ní úsáideann Mód sábháilte friotachas clúdaigh"
+    },
+    "BoostTemperature": {
+      "displayText": "Teocht\nbhorrtha",
+      "description": "Teocht bioráin a úsáidtear i \"mód borrtha\""
+    },
+    "AutoStart": {
+      "displayText": "Iompraíocht\nTosaigh",
+      "description": "S=teas go dtí teocht sádrála | Z=stad ag teocht codlata go dtí go mbogtar | R=stad gan teasú go dtí go mbogtar"
+    },
+    "TempChangeShortStep": {
+      "displayText": "Athrú teocht\ngearr",
+      "description": "Méid athrú teochta ar bhrú cnaipe gearr"
+    },
+    "TempChangeLongStep": {
+      "displayText": "Athrú teocht\nfaid",
+      "description": "Méid athrú teochta ar bhrú cnaipe fada"
+    },
+    "LockingMode": {
+      "displayText": "Ceadaigh\ncnaipe glasála",
+      "description": "Le linn sádrála, coinnigh síos an dá chnaipe chun glasadh a chur ar aghaidh (B=mód borrtha amháin | F=glasáil iomlán)"
+    },
+    "ProfilePhases": {
+      "displayText": "Céimeanna\nPróifíle",
+      "description": "Líon na gcéimeanna i mód próifíle"
+    },
+    "ProfilePreheatTemp": {
+      "displayText": "Réamhthéamh\nTeocht",
+      "description": "Réamhthéamh go dtí an teocht seo ag tús an mhód phróifíle"
+    },
+    "ProfilePreheatSpeed": {
+      "displayText": "Luas Réamhthéamh",
+      "description": "Réamhthéamh ag an ráta seo (céimeanna in aghaidh an tsoicind)"
+    },
+    "ProfilePhase1Temp": {
+      "displayText": "Céim 1\nTeocht",
+      "description": "Teocht sprice ag deireadh na céime seo"
+    },
+    "ProfilePhase1Duration": {
+      "displayText": "Céim 1\nFad",
+      "description": "Fad sprice na céime seo (soicind)"
+    },
+    "TemperatureUnit": {
+      "displayText": "Aonad\nTeochta",
+      "description": "C=°Celsius | F=°Fahrenheit"
+    },
+    "DisplayRotation": {
+      "displayText": "Treoshuíomh\nScáileáin",
+      "description": "R=deaslámhach | L=clé | A=uathoibríoch"
+    },
+    "Brightness": {
+      "displayText": "Gile\nScáileáin",
+      "description": "Coigeartaigh gile an scáileáin OLED"
+    },
+    "LanguageSwitch": {
+      "displayText": "Teanga:\n GA     Gaeilge",
+      "description": "Irish"
+    }
+  }
+}
