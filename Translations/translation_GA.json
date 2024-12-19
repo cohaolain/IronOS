@@ -134,82 +134,215 @@
       "displayText": "JBC\nC210"
     }
   },
+  
   "menuOptions": {
     "DCInCutoff": {
       "displayText": "Foinse\nCumhachta",
-      "description": "Socraigh voltas gearrtha chun ró-urscaoileadh ceallraí a chosc (DC=10V) (S=3.3V in aghaidh cealla, díchumasú teorainn PWR)"
+      "description": "Socraigh voltais scoite chun ró-urscaoileadh na ceallraí a chosc (DC=10V) (S=3.3V in aghaidh an chill, gan teorainn PWR a chumasú)"
     },
     "MinVolCell": {
-      "displayText": "Íosvoltas\ncealla",
-      "description": "Íosvoltas ceadaithe in aghaidh cealla ceallraí (3S: 3 - 3.7V | 4-6S: 2.4 - 3.7V)"
+      "displayText": "Voltas\nÍosta",
+      "description": "An voltas is ísle atá ceadaithe in aghaidh an chill ceallraí (3S: 3 - 3.7V | 4-6S: 2.4 - 3.7V)"
     },
     "QCMaxVoltage": {
-      "displayText": "QC\nvoltas",
-      "description": "Voltas uasta QC a ba cheart don iarann a chaibidil le haghaidh"
+      "displayText": "QC\nVoltas",
+      "description": "An voltas QC is mó ba cheart don iarann a shocrú"
     },
     "PDNegTimeout": {
-      "displayText": "PD\namá\nmochta",
-      "description": "Amáil idirbheartaíochta PD i gcéimeanna 100ms chun comhoiriúnacht le luchtairí áirithe QC a chinntiú"
+      "displayText": "Am Teorainn\nPD",
+      "description": "Am teorainn idirbheartaíochta PD i gcéimeanna 100ms chun comhoiriúnacht le roinnt luchtairí QC"
     },
     "USBPDMode": {
       "displayText": "Mód\nPD",
-      "description": "Gan Dinimiciúil díchumasóidh EPR & PPS, ní úsáideann Mód sábháilte friotachas clúdaigh"
+      "description": "Díchumasaigh Dinimiciúil EPR & PPS, ní úsáideann Mód Sábháilte friotaíocht mhaolánach"
     },
     "BoostTemperature": {
-      "displayText": "Teocht\nbhorrtha",
-      "description": "Teocht bioráin a úsáidtear i \"mód borrtha\""
+      "displayText": "Teocht\nBrú",
+      "description": "Teocht an tsearradh a úsáidtear i \"mód brú\""
     },
     "AutoStart": {
-      "displayText": "Iompraíocht\nTosaigh",
-      "description": "S=teas go dtí teocht sádrála | Z=stad ag teocht codlata go dtí go mbogtar | R=stad gan teasú go dtí go mbogtar"
+      "displayText": "Iompar\nTosaithe",
+      "description": "S=teocht sádrála | Z=teocht codlata go dtí go mbogtar | R=gan téamh go dtí go mbogtar"
     },
     "TempChangeShortStep": {
-      "displayText": "Athrú teocht\ngearr",
-      "description": "Méid athrú teochta ar bhrú cnaipe gearr"
+      "displayText": "Athrú Teocht\nGearr",
+      "description": "Méid athraithe teocht ar bhrú cnaipe gearr"
     },
     "TempChangeLongStep": {
-      "displayText": "Athrú teocht\nfaid",
-      "description": "Méid athrú teochta ar bhrú cnaipe fada"
+      "displayText": "Athrú Teocht\nFada",
+      "description": "Méid athraithe teocht ar bhrú cnaipe fada"
     },
     "LockingMode": {
-      "displayText": "Ceadaigh\ncnaipe glasála",
-      "description": "Le linn sádrála, coinnigh síos an dá chnaipe chun glasadh a chur ar aghaidh (B=mód borrtha amháin | F=glasáil iomlán)"
+      "displayText": "Cnaipe a\nGlasáil",
+      "description": "Le linn sádrála, coinnigh síos an dá chnaipe chun iad a ghlasáil (B=mód brú amháin | F=glasáil iomlán)"
     },
     "ProfilePhases": {
       "displayText": "Céimeanna\nPróifíle",
-      "description": "Líon na gcéimeanna i mód próifíle"
+      "description": "Líon céimeanna i mód próifíle"
     },
     "ProfilePreheatTemp": {
-      "displayText": "Réamhthéamh\nTeocht",
-      "description": "Réamhthéamh go dtí an teocht seo ag tús an mhód phróifíle"
+      "displayText": "Teocht Réamhthéamh",
+      "description": "Réamhthéamh chuig an teocht seo ag tús mód próifíle"
     },
     "ProfilePreheatSpeed": {
       "displayText": "Luas Réamhthéamh",
       "description": "Réamhthéamh ag an ráta seo (céimeanna in aghaidh an tsoicind)"
     },
     "ProfilePhase1Temp": {
-      "displayText": "Céim 1\nTeocht",
-      "description": "Teocht sprice ag deireadh na céime seo"
+      "displayText": "Teocht Céim 1",
+      "description": "Teocht sprice le haghaidh deireadh na céime seo"
     },
     "ProfilePhase1Duration": {
-      "displayText": "Céim 1\nFad",
+      "displayText": "Fad Céim 1",
       "description": "Fad sprice na céime seo (soicind)"
+    },
+    "ProfilePhase2Temp": {
+      "displayText": "Teocht Céim 2",
+      "description": ""
+    },
+    "ProfilePhase2Duration": {
+      "displayText": "Fad Céim 2",
+      "description": ""
+    },
+    "ProfilePhase3Temp": {
+      "displayText": "Teocht Céim 3",
+      "description": ""
+    },
+    "ProfilePhase3Duration": {
+      "displayText": "Fad Céim 3",
+      "description": ""
+    },
+    "ProfilePhase4Temp": {
+      "displayText": "Teocht Céim 4",
+      "description": ""
+    },
+    "ProfilePhase4Duration": {
+      "displayText": "Fad Céim 4",
+      "description": ""
+    },
+    "ProfilePhase5Temp": {
+      "displayText": "Teocht Céim 5",
+      "description": ""
+    },
+    "ProfilePhase5Duration": {
+      "displayText": "Fad Céim 5",
+      "description": ""
+    },
+    "ProfileCooldownSpeed": {
+      "displayText": "Luas Fuaraigh",
+      "description": "Fuaraigh ag an ráta seo ag deireadh mód próifíle (céimeanna in aghaidh an tsoicind)"
+    },
+    "MotionSensitivity": {
+      "displayText": "Íogaireacht\nGluaiseachta",
+      "description": "1=níos lú íogair | ... | 9=níos íogaire"
+    },
+    "SleepTemperature": {
+      "displayText": "Teocht\nCodlata",
+      "description": "Teocht an tsearradh i \"mód codlata\""
+    },
+    "SleepTimeout": {
+      "displayText": "Am Teorainn\nCodlata",
+      "description": "Eatramh roimh \"mód codlata\" a thosú (s=soicindí | m=nóiméad)"
+    },
+    "ShutdownTimeout": {
+      "displayText": "Am Teorainn\nMúchta",
+      "description": "Eatramh roimh an iarann a mhúchadh (m=nóiméad)"
+    },
+    "HallEffSensitivity": {
+      "displayText": "Íogaireacht\nBraiteora Halla",
+      "description": "Íogaireacht do mhaighnéid (1=níos lú íogair | ... | 9=níos íogaire)"
+    },
+    "HallEffSleepTimeout": {
+      "displayText": "Am Codlata\nBraiteora Halla",
+      "description": "Eatramh roimh \"mód codlata\" a thosú nuair a bhíonn éifeacht halla os cionn tairseach"
     },
     "TemperatureUnit": {
       "displayText": "Aonad\nTeochta",
       "description": "C=°Celsius | F=°Fahrenheit"
     },
     "DisplayRotation": {
-      "displayText": "Treoshuíomh\nScáileáin",
-      "description": "R=deaslámhach | L=clé | A=uathoibríoch"
+      "displayText": "Treoshuíomh\nTaispeána",
+      "description": "R=ceart-láimhe | L=clé-láimhe | A=uathoibríoch"
+    },
+    "CooldownBlink": {
+      "displayText": "Splancadh\nFuaraigh",
+      "description": "Splanc léamh teochta ag suaimhneas agus an barr te"
+    },
+    "ScrollingSpeed": {
+      "displayText": "Luas\nScrollaigh",
+      "description": "Luas scrollaigh téacs faisnéise (S=mall | F=tapa)"
+    },
+    "ReverseButtonTempChange": {
+      "displayText": "Aistrigh\nCnaipe + -",
+      "description": "Aistrigh sannadh na gcnaipe chun teocht a choigeartú"
+    },
+    "AnimSpeed": {
+      "displayText": "Luas\nBeochana",
+      "description": "Ritme beochana íocón sa roghchlár (S=mall | M=meán | F=tapa)"
+    },
+    "AnimLoop": {
+      "displayText": "Timthriall\nBeochana",
+      "description": "Beochana íocón lúbtha sa roghchlár príomhúil"
     },
     "Brightness": {
-      "displayText": "Gile\nScáileáin",
+      "displayText": "Gile an\nScáileáin",
       "description": "Coigeartaigh gile an scáileáin OLED"
+    },
+    "ColourInversion": {
+      "displayText": "Aisiompú\nDathanna",
+      "description": "Aisiompú dathanna scáileáin OLED"
+    },
+    "LOGOTime": {
+      "displayText": "Fad Lógó\nTosaithe",
+      "description": "Socraigh fad lógó tosaithe (s=soicindí)"
+    },
+    "AdvancedIdle": {
+      "displayText": "Sonraí\nScáileán Suímh",
+      "description": "Taispeáin faisnéis mhionsonraithe i gcló níos lú ar scáileán suaimhneas"
+    },
+    "AdvancedSoldering": {
+      "displayText": "Sonraí\nScáileán Sádrála",
+      "description": "Taispeáin faisnéis mhionsonraithe i gcló níos lú ar scáileán sádrála"
+    },
+    "BluetoothLE": {
+      "displayText": "Bluetooth\n",
+      "description": "Cumasaíonn BLE"
+    },
+    "PowerLimit": {
+      "displayText": "Teorainn\nCumhachta",
+      "description": "An chumhacht uasta meánach is féidir leis an iarann a úsáid (W=vata)"
+    },
+    "CalibrateCJC": {
+      "displayText": "Calabrú CJC\nAg an gcéad Tosaigh",
+      "description": "Calabrú Cúiteamh Dúnta Fuar ag an gcéad tosaithe (níl gá má tá Delta T < 5°C)"
+    },
+    "VoltageCalibration": {
+      "displayText": "Calabrú\nVoltais",
+      "description": "Tosú calabrú VIN (brú fada chun scoir)"
+    },
+    "PowerPulsePower": {
+      "displayText": "Cumhacht\nCúiseanna",
+      "description": "Déine cumhachta na bíge feistithe (W=vata)"
+    },
+    "PowerPulseWait": {
+      "displayText": "Moill Cúiseanna\nCumhachta",
+      "description": "Moill roimh chuis feistithe a spreagadh (x 2.5s)"
+    },
+    "PowerPulseDuration": {
+      "displayText": "Fad Bíge\nCumhachta",
+      "description": "Fad bíge feistithe (x 250ms)"
+    },
+    "SettingsReset": {
+      "displayText": "Athshocraigh\nSocruithe",
+      "description": "Athshocraigh gach socrú go dtí réamhshocrú"
     },
     "LanguageSwitch": {
       "displayText": "Teanga:\n GA     Gaeilge",
       "description": "Irish"
+    },
+    "SolderingTipType": {
+      "displayText": "Cineál Barr\nSádrála",
+      "description": "Roghnaigh an cineál barr atá feistithe"
     }
   }
 }
